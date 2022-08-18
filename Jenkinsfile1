@@ -1,6 +1,6 @@
 node {
   stage('SCM') {
-    git 'https://github.com/nikolaypeshev-86/sonarscanner.git'
+    git 'https://github.com/nikolaypeshev-86/time-tracker.git'
   }
   stage('SonarQube Analysis') {
   withSonarQubeEnv('sq19') {
